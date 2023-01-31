@@ -2,6 +2,7 @@ package ie.setu.controlflow
 
 import java.lang.Integer.parseInt
 
+//Main Function
 fun main() {
     println("The max number is: " + maxOf(4, 6))
     println(printValue(7))
