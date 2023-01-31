@@ -138,6 +138,7 @@ fun workingWithStrings(){
     println(franklin)
 }
 
+
 fun workingWithTemplates(){
     val firstString = "This is a String"
     val secondString = "and this is another String"
