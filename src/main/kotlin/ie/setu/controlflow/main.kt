@@ -145,10 +145,10 @@ fun workingWithTemplates(){
     val firstString = "This is a String"
     val secondString = "and this is another String"
 
-    //using simple names
+    //Using Simple Names
     println ("Simple names: $firstString $secondString")
 
-    //using arbitrary expressions in {}
+    //Using Arbitrary Expressions in {}
     println("Expressions (cases): ${firstString.uppercase()} ${secondString.lowercase()}")
     println("Expressions (string size): first string is ${firstString.length}")
     println("Expressions (substring): ${firstString.substring(0,2)}")
