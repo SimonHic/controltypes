@@ -44,6 +44,7 @@ fun printValue(value : Int) = when(value) {
     else -> "The value is: $value"
 }
 
+//Print a range of values
 fun printRange(value: Int){
     when(value){
         in 1..10 -> println ("Between 1..10")
